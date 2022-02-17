@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    body{
+        background: #0080ff;
+    }
 </head>
 <body>
-
+    <h1>Curso Django</h1>
+    {% for p in texto %}
+        <p>{{ p }}</p>
+    {% endfor %}
 </body>
 </html>

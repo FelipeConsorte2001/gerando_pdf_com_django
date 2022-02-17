@@ -25,5 +25,3 @@ class IndexView(View):
 
         # Abre direto no navegador
         return FileResponse(buffer, filename='relatorio.pdf')
-
-
